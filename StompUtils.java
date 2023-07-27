@@ -1,13 +1,5 @@
-package com.terminus.chatroom;
 
-import static android.content.ContentValues.TAG;
 
-import android.util.Log;
-
-import com.terminus.chatroom.Const.Const;
-import ua.naiksoftware.stomp.StompClient;
-
-//impor static app.xlui.example.im.conf.Const.TAG;
 
 public class StompUtils {
     @SuppressWarnings({"ResultOfMethodCallIgnored", "CheckResult"})
