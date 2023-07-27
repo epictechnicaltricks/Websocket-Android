@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
         messageBox = findViewById(R.id.writemessage);
         showText=findViewById(R.id.showText);
 		
-		//code by shubhamjit (date : 27th july 2023)
+		//code by Shubhamjit (date : 27th july 2023)
+	        // library credit : naiksoftware
 		
 		// Connection to ws server
         StompClient stompClient = Stomp.over(Stomp.ConnectionProvider.OKHTTP, "ws://your_ws_or_wss_url.com");
